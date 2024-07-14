@@ -39,7 +39,7 @@ quiz-application/
 * Set up the main class to be `MainMenu.java`
 * The project is ready to run now
 
-# Running the JAR file
+## Running the JAR file
 * Navigate to the executable-jar-file directory
 * Run the JAR file using the command: `java -jar QuizApp.jar`
 
@@ -49,4 +49,4 @@ quiz-application/
 * If you would like to contribute to this project, please fork the repository and create a pull request with your changes.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE]() file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/NikhilK-84/quiz-application-project/blob/master/LICENSE) file for details.
