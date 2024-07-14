@@ -38,6 +38,7 @@ public class Play extends JFrame implements ActionListener {
         int fH = 600;
         int fW = 418 * 2 + 418 / 2;
         setLayout(null);
+        setResizable(false);
 
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("img/Hourglass.jpg"));
         JLabel i11 = new JLabel(i1);

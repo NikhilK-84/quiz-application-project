@@ -19,6 +19,7 @@ public class SelectQuiz extends JFrame implements ActionListener {
         int fH = 600; // Frame height
         int fW = 534 * 2; // Frame width
         setLayout(null);
+        setResizable(false);
 
         // Load and add background image
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("img/selectQuiz.jpg"));

@@ -14,7 +14,7 @@ public class CreateQuiz extends JFrame implements ActionListener {
 
     // Constructor to set up the Create Quiz frame
     CreateQuiz(ArrayList<String> savedQuizzes) {
-
+        setResizable(false);
         // Set title and dimensions
         setTitle("Quiz Creation");
         Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();

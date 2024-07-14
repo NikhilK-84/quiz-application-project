@@ -33,6 +33,7 @@ public class Question extends JFrame implements ActionListener {
         int fH = 600;
         int fW = 900;
         setLayout(null);
+        setResizable(false);
 
         // Background image label
         int left = fW / 2 + fW / 8; // Size of left section

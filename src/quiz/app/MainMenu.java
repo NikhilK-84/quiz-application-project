@@ -23,7 +23,7 @@ public class MainMenu extends JFrame implements ActionListener {
         int fH = 600;
         int fW = 479 * 2;
         setLayout(null); // Use null layout for custom positioning
-
+        setResizable(false);
         // Load background image and set its bounds
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("img/name.jpg"));
         JLabel i11 = new JLabel(i1);

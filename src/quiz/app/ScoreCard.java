@@ -20,6 +20,7 @@ public class ScoreCard extends JFrame implements ActionListener {
         int fH = 600;
         int fW = 900;
         setLayout(null);
+        setResizable(false);
 
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("img/score.jpg"));
         JLabel i11 = new JLabel();
