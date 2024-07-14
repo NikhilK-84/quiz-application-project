@@ -10,23 +10,23 @@ After the quiz ends, the score is displayed with a comment on how the player per
 quiz-application/ <br>
 │ <br>
 ├── executable-jar-file/ <br>
-│ ├── QuizApp.jar # A jar file that is ready to be used <br>
+│ ├── QuizApp.jar (A jar file that is ready to be used) <br>
 ├── src/ <br>
-│ ├── img/ # images used for app <br>
+│ ├── img/ (images used for app) <br>
 │ ├── quiz/ <br>
 │ │ ├── app/ <br>
-│ │ │ ├── MainMenu.java # Main class for the app <br>
-│ │ │ ├── CreateQuiz.java # To create quizzes <br>
-│ │ │ ├── Question.java # A frame to take input for questions in the quiz <br>
-│ │ │ ├── QuestionManager.java # Manages how the questions are stored locally <br>
-│ │ │ ├── QuestionData.java # A class that stores each question's data as an object <br>
-│ │ │ ├── SelectQuiz.java # A class that retrieves the saved quizzes and displays them as a selection to play from <br>
-│ │ │ ├── Play.java # A frame to display questions and allow the user to play the quiz <br>
-│ │ │ ├── ScoreCard.java # Calculates the score of the quiz based on the user's selected choices <br>
-│ └── user_saved_quizzes/ # Contains serialized quiz data (.ser files) <br>
+│ │ │ ├── MainMenu.java (Main class for the app) <br>
+│ │ │ ├── CreateQuiz.java (To create quizzes) <br>
+│ │ │ ├── Question.java (A frame to take input for questions in the quiz) <br>
+│ │ │ ├── QuestionManager.java (Manages how the questions are stored locally) <br>
+│ │ │ ├── QuestionData.java (A class that stores each question's data as an object) <br>
+│ │ │ ├── SelectQuiz.java (A class that retrieves the saved quizzes and displays them as a selection to play from) <br>
+│ │ │ ├── Play.java (A frame to display questions and allow the user to play the quiz) <br>
+│ │ │ ├── ScoreCard.java (Calculates the score of the quiz based on the user's selected choices) <br>
+│ └── user_saved_quizzes/ (Contains serialized quiz data (.ser files)) <br>
 │ <br>
-├── README.md # Project documentation <br>
-└── LICENSE # License information <br>
+├── README.md (Project documentation) <br>
+└── LICENSE <br>
 
 ## Requirements
 * NetBeans (IDE to run the Java project)
