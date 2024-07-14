@@ -19,7 +19,7 @@ quiz-application/ <br>
 │ │ │ ├── CreateQuiz.java # To create quizzes <br>
 │ │ │ ├── Question.java # A frame to take input for questions in the quiz <br>
 │ │ │ ├── QuestionManager.java # Manages how the questions are stored locally <br>
-│ │ │ ├── QuestionData.java # A class that stores each question's data as an object <br> 
+│ │ │ ├── QuestionData.java # A class that stores each question's data as an object <br>
 │ │ │ ├── SelectQuiz.java # A class that retrieves the saved quizzes and displays them as a selection to play from <br>
 │ │ │ ├── Play.java # A frame to display questions and allow the user to play the quiz <br>
 │ │ │ ├── ScoreCard.java # Calculates the score of the quiz based on the user's selected choices <br>
